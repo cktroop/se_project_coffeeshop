@@ -5,12 +5,14 @@
   height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
+  box-sizing: border-box;
 }
 
 .header__title {
   margin: 183px 0 0;
   max-width: 729px;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", "sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -21,6 +23,7 @@
 .header__span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", "serif";
+  font-weight: normal;
   font-style: italic;
   line-height: 72px;
   color: #3f96f3;
@@ -42,6 +45,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {

@@ -6,7 +6,7 @@
   height: 800px;
 }
 
-.recipe__title {
+.recipes__title {
   margin: 0 0 24px;
   max-width: 580px;
   font-family: "Inter";
@@ -29,9 +29,12 @@
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border: none;
 }
 
 .recipes__videos {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   list-style-type: none;
@@ -39,7 +42,8 @@
 }
 
 .recipes__video-caption {
-  margin: 24px 0 215px;
+  margin: 24px 0 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   font-family: "Inter";
